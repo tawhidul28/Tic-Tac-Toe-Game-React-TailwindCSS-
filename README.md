@@ -1,16 +1,39 @@
-# React + Vite
+Tic Tac Toe Game (React + TailwindCSS)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and interactive Tic Tac Toe game built using React and Tailwind CSS.
+This project includes a move history feature, allowing players to jump back to any previous move in the game.
 
-Currently, two official plugins are available:
+🛠️ Technologies Used
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🔹React
 
-## React Compiler
+🔹Tailwind CSS
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+🔹JavaScript
 
-## Expanding the ESLint configuration
+🔹Vite / Create React App
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+📖 How to Play
+
+1. Player X starts the game.
+
+2. Players take turns placing X and O on the board.
+
+3. The first player to align 3 marks horizontally, vertically, or diagonally wins.
+
+4. You can jump to previous moves using the move history buttons.
+
+📌 Future Improvements
+
+🔹Restart game button
+
+🔹Scoreboard
+
+🔹Multiplayer support
+
+🔹Animations
+
+
+👨‍💻 Author
+
+Tawhidul Islam
